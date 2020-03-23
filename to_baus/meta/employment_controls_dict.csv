@@ -1,1 +1,8 @@
-variable, longer name, decription, type, required, notes
+variable, type, required, longer name, decription, notes
+year, int, yes, 
+AGREMPN, int, yes, Agricultural and Resource Extraction Jobs, count of total regional jobs in that sector for that years,  
+MWTEMPN, int, yes, Manufacturing Warehouse and Transport Jobs, count of total regional jobs in that sector for that years,  
+RETEMPN, int, yes, Retail Jobs, count of total regional jobs in that sector for that years,  
+FPSEMPN, int, yes, Financial Professional Services Jobs, count of total regional jobs in that sector for that years,  
+HEREMPN, int, yes, Health and Education Jobs, count of total regional jobs in that sector for that years,  
+OTHEMPN int, yes, Other Jobs, count of total regional jobs in that sector for that years,  
