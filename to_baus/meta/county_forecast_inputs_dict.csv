@@ -1,9 +1,9 @@
 variable, type, required, longer name, decription, notes 
 COUNTY, int, ?, County Number, MTC style numbers for counties, starts with sfr and moves counterclockwise
 county_name, string, ?, County Name, text name for county, 
-shr_occ_management, float, yes, Share Management, share of jobs in management occupation for entire forecast, 
-shr_occ_professional, float, yes, Share Professional, share of jobs in professional occupation for entire forecast, 
-shr_occ_services, float, yes, Share Services, share of jobs in services occupation for entire forecast, 
-shr_occ_retail, float, yes, Share Retail, share of jobs in retail occupation for entire forecast, 
-shr_occ_manual, float, yes, Share Manual, share of jobs in manual occupation for entire forecast, 
-shr_occ_military, float, yes, Share Military, share of jobs in military occupation for entire forecast, 
+shr_occ_management, float, yes, Share Management, proportion of jobs in management occupation for entire forecast, 
+shr_occ_professional, float, yes, proportion Professional, share of jobs in professional occupation for entire forecast, 
+shr_occ_services, float, yes, Share Services, proportion of jobs in services occupation for entire forecast, 
+shr_occ_retail, float, yes, Share Retail, proportion of jobs in retail occupation for entire forecast, 
+shr_occ_manual, float, yes, Share Manual, proportion of jobs in manual occupation for entire forecast, 
+shr_occ_military, float, yes, Share Military, proportion of jobs in military occupation for entire forecast, 
