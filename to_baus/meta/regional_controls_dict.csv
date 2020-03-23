@@ -1,5 +1,5 @@
 variable, type, required, longer name, decription, notes
-year,
+year, int, yes, Forecast Year, forecast year for other data in 5 year intervals, 
 totpop, int, yes, Total Population, total count of persons in the region that year, what about gq?
 empres, int, yes, Employed Residents, total count of persons with jobs in the region that year, 
 medianage, float, ?, Median Age, median age for person in the region that year, 
