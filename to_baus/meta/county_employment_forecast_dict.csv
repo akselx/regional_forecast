@@ -1,7 +1,7 @@
 variable, type, required, longer name, decription, notes
 year, int, yes, Forecast Year, forecast year for other data in 5 year intervals, 
 county, int, ?, County Number, MTC style numbers for counties, starts with sfr and moves counterclockwise
-county_name, string, ?, County Name, 
+county_name, string, ?, County Name, text name for county, 
 shr_occ_management, float, yes, Share Management, share of jobs in management occupation, 
 shr_occ_professional, float, yes, Share Professional, share of jobs in professional occupation, 
 shr_occ_services, float, yes, Share Services, share of jobs in services occupation, 
