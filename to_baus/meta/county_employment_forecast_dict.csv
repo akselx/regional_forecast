@@ -7,4 +7,4 @@ shr_occ_professional, float, yes, Share Professional, share of jobs in professio
 shr_occ_services, float, yes, Share Services, share of jobs in services occupation, 
 shr_occ_retail, float, yes, Share Retail, share of jobs in retail occupation, 
 shr_occ_manual, float, yes, Share Manual, share of jobs in manual occupation, 
-shr_occ_military float, yes, Share Military, share of jobs in military occupation, 
+shr_occ_military, float, yes, Share Military, share of jobs in military occupation, 
