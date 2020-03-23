@@ -5,4 +5,4 @@ MWTEMPN, int, yes, Manufacturing Warehouse and Transport Jobs, count of total re
 RETEMPN, int, yes, Retail Jobs, count of total regional jobs in that sector for that years,  
 FPSEMPN, int, yes, Financial Professional Services Jobs, count of total regional jobs in that sector for that years,  
 HEREMPN, int, yes, Health and Education Jobs, count of total regional jobs in that sector for that years,  
-OTHEMPN int, yes, Other Jobs, count of total regional jobs in that sector for that years,  
+OTHEMPN, int, yes, Other Jobs, count of total regional jobs in that sector for that years, 
