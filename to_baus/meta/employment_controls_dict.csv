@@ -1,5 +1,5 @@
 variable, type, required, longer name, decription, notes
-year, int, yes, 
+year, int, yes, Forecast Year, forecast year for other data in 5 year intervals, 
 AGREMPN, int, yes, Agricultural and Resource Extraction Jobs, count of total regional jobs in that sector for that years,  
 MWTEMPN, int, yes, Manufacturing Warehouse and Transport Jobs, count of total regional jobs in that sector for that years,  
 RETEMPN, int, yes, Retail Jobs, count of total regional jobs in that sector for that years,  
