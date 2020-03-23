@@ -1,0 +1,24 @@
+ind,Industries
+Agriculture & Natural Resources,"Forestry, fishing, and hunting"
+Agriculture & Natural Resources,Mining
+Agriculture & Natural Resources,Farm
+Construction,Construction
+Manufacturing & Wholesale,Manufacturing
+Manufacturing & Wholesale,Wholesale trade
+Retail,Retail trade
+Transportation & Utilities,Transportation and warehousing
+Transportation & Utilities,Utilities
+Information,Information
+Financial & Leasing,Finance and insurance
+Financial & Leasing,Real estate and rental and leasing
+Professional & Managerial Services,"Professional, scientific, and technical services"
+Professional & Managerial Services,Management of companies and enterprises
+Professional & Managerial Services,"Administrative, support, waste management, and remediation services"
+Health & Educational Services,Educational services; private
+Health & Educational Services,Health care and social assistance
+"Arts, Recreation & Other Services","Arts, entertainment, and recreation"
+"Arts, Recreation & Other Services",Accommodation and food services
+"Arts, Recreation & Other Services",Other services (except public administration)
+Government,State and Local Government
+Government,Federal Civilian
+Government,Federal Military
