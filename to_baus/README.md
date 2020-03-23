@@ -11,7 +11,8 @@ This foilder contains the regional output files for Bay Area UrbanSim
 * [County Employment Forecast](https://github.com/BayAreaMetro/bayarea_urbansim/blob/master/data/county_employment_forecast.csv):
 
 ## Scenarios
-Each folder contains the ** output files for use in BAUS:
+Each folder contains the 5 output files for use in BAUS:
+* meta: this folder contains data dictionaries ("dict") and optional metadata ("meta") for each of the files
 * s20: No Project (Plan Bay Area 2050)
 * s21: Blueprint Basic
 * s22: Blueprint Plus
