@@ -1,19 +1,9 @@
-### TO BAY AREA URBANSIM
+### Regionals Post Process
 
 ## Overview
-This foilder contains the regional output files for Bay Area UrbanSim 
+This folder contains the scripts and data disctionaries needed to process results from REMI model into the format needed by UrbanSim and Travel Model 2.
 
 ## Files Setup
-* [Household Control Totals](https://github.com/BayAreaMetro/bayarea_urbansim/blob/master/data/household_controls.csv): This table represents the total number of households forecast to live in the Bay Area in each forecast year. This means BAUS will ensure that its forecast conforms to these numbers. The values area counts of households. The values are segmented into 5-year intervals (2010 to 2050) and into four categories of approximate household income quartiles. FORMAT: household_controls_s# where # is the scenario number below
-* [Employment Control Totals](https://github.com/BayAreaMetro/bayarea_urbansim/blob/master/data/employment_controls.csv): This table represents the total number of jobs forecast to exist in the Bay Area in each forecast year. This means BAUS will ensure that its forecast conforms to these numbers. The values area counts of jobs. The values are segmented into each 5-year intervals (2010 to 2050) and into six sectors.
-* [Additional Regional Control Totals](https://github.com/BayAreaMetro/bayarea_urbansim/blob/master/data/regional_controls.csv): This table provides additional forecast information that is passed on to the Travel Model. THe final column is the expected
-* [County Forecast Inputs](https://github.com/BayAreaMetro/bayarea_urbansim/blob/master/data/county_forecast_inputs.csv): 
-* [County Employment Forecast](https://github.com/BayAreaMetro/bayarea_urbansim/blob/master/data/county_employment_forecast.csv):
+* [BEA to EDD + ACS employment translate.ipynb]: This script intends to translate REMI employment numbers (BEA concept) into BLS + ACS concept employment. The ratios were calculated using 2015 published BEA data, and BLS (CA EDD data) full time employment data and ACS 2013-2017 5year Self Employment data. These ratios (emp_translate.csv) were used to scale the REMI forecast results. The values are segmented into 5-year intervals (2015 to 2050) and into 11 categories (which is what's available in the ACS table: sectormap.csv)
+* [Control Totals File for UrbanSim PBA50.ipynb]: This script intends to compile all population, employment (from REMI) and household (from MTC/ABAG household and income models) results into a single excel file. It includes: population by age groups (age group.csv), employment by industry (ind 6 cat.csv), household by income bins, and total population/jobs/households.
 
-## Scenarios
-Each folder contains the 5 output files for use in BAUS:
-* meta: this folder contains data dictionaries ("dict") and optional metadata ("meta") for each of the files
-* s20: No Project (Plan Bay Area 2050)
-* s21: Blueprint Basic
-* s22: Blueprint Plus
-* s23: Blueprint Plus Crossing
