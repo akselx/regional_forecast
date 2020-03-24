@@ -13,7 +13,7 @@ This foilder contains the regional output files for Bay Area UrbanSim
 ## Scenarios
 Each folder contains the 5 output files for use in BAUS:
 * meta: this folder contains data dictionaries ("dict") and optional metadata ("meta") for each of the files
-* s20: No Project (Plan Bay Area 2050)
+* s20: Baseline for PBA50 (so the lower HH count without policy change)
 * s21: Blueprint Basic
 * s22: Blueprint Plus
 * s23: Blueprint Plus Crossing
